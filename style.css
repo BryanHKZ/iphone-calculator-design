@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans&display=swap");
+
+body {
+  background-color: rgb(80, 80, 80);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  position: relative;
+}
+.calculator {
+  float: left;
+  position: absolute;
+  left: 38px;
+  top: 80px;
+  z-index: 1000;
+}
+.field {
+  max-width: 235px;
+  text-align: right;
+}
+.input-number {
+  font-size: 4rem;
+  color: white;
+  font-family: "PT Sans", sans-serif;
+}
+.number {
+  background-color: #333333;
+  border-radius: 100%;
+  border: none;
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+  margin-right: 3px;
+}
+.zero {
+  background-color: #333333;
+  border: none;
+  border-radius: 40px;
+  width: 107px;
+  height: 50px;
+  cursor: pointer;
+  margin-right: 3px;
+  text-align: left;
+}
+.letter-zero {
+  margin-left: 12px;
+}
+.buttons {
+  margin-top: 10px;
+}
+.functionality {
+  background-color: #a6a6a6;
+  border-radius: 100%;
+  border: none;
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+  margin-right: 3px;
+}
+.letter {
+  font-size: 1.5rem;
+  color: white;
+  font-family: "PT Sans", sans-serif;
+}
+.operator {
+  background-color: #ff9501;
+  border-radius: 100%;
+  border: none;
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+}
+.notification-bar {
+  margin-bottom: 35px;
+}
+.nbt {
+  font-size: 12px;
+  font-family: "PT Sans", sans-serif;
+  color: white;
+  font-weight: 700;
+}
+.nbi {
+  margin-top: 4px;
+  font-size: 12px;
+  color: white;
+  float: right;
+  margin-left: 3px;
+}
